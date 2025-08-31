@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    background-color: #7DD3FC;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#home-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40;
+    color: #E11D48;
+    text-align: center;
+}
+
+#guest-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40;
+    color: #E11D48;
+    text-align: center;
+}
+
+.homescore-box {
+    background-color: azure;
+    width: 155px;
+    height: 120px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guestscore-box {
+    background-color: azure;
+    width: 155px;
+    height: 120px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home-score {
+    color: #E11D48;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    text-align: center;
+    font-size: 65px;
+}
+
+#guest-score {
+    color: #E11D48;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    text-align: center;
+    font-size: 65px;
+}
+
+.home-buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.guest-buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    background: none;
+    padding: 7px;
+    border-radius: 7px;
+    border-color: #E11D48;
+    color: #E11D48;
+}
+
+.reset {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reset-btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40;
+    color: #E11D48;
+    text-align: center;
+}
